@@ -1,0 +1,38 @@
+export const SidebarData = [
+	{
+		title: "Dashboard",
+		path: "UserStats",
+		cName: "nav-text",
+		icon: "fa-tachometer",
+	},
+	{
+		title: "Member Chat Group",
+		cName: "nav-text",
+		path: "MemberChatGroup",
+		icon: "fa-comments",
+	},
+	{
+		title: "Private Chat With Admin",
+		cName: "nav-text",
+		path: "ChatWithAdmin",
+		icon: "fa-comment",
+	},
+	{
+		title: "Discover Board",
+		cName: "nav-text",
+		path: "DiscoverBoard",
+		icon: "fa-hand-o-right",
+	},
+	{
+		title: "Profile",
+		cName: "nav-text",
+		path: "Profile",
+		icon: "fa-user",
+	},
+	{
+		title: "Logout",
+		cName: "nav-text",
+		path: "logout",
+		icon: "fa-sign-out",
+	},
+];
